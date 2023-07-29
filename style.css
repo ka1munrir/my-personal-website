@@ -1,8 +1,27 @@
 body {
+    background: #0c0c0c;
+}
+
+#banner-header {
+    width: 100%;
+    height: 75px;
     background: #000;
 }
 
-h1 {
+.banner-text {
+    color: #bbb;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+h1, .sub-header, #about-me-content, .contact-info, .sub-header {
     text-align: center;
-    color: #aaa;
+    color: #bbb;
+}
+
+h2 {
+    color: red;
 }
