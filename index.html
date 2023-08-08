@@ -1,38 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <link rel="stylesheet" href="./style.css">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Juan's Personal Website</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <script src="script.js"></script>
-        <!--This one is for trying to create a banner at the top-->
-        <header id="banner-header">
-            <ul>
-                <li>
-                    <a href="./#about" class="banner-text">About</a>
-                </li>
-                <li>
-                    <a href="./#contact" class="banner-text">Contact</a>
-                </li>
-            </ul>
+       <!--This one is for trying to create a banner at the top-->
+       <header id="header">
+            <nav>
+                <ul class="nav_links">
+                    <li id="projects-header"><a href="#">Projects</a></li>
+                    <li id="about-header"><a href="#">About</a></li>
+                    <li id="contact-header"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
         </header>
-        <!--This one is for the big header-->
-        <section id="home">
-            <h1>Hello I'm Juan Ortiz-Acosta!</h1>
-        </section>
-        <!--This is the About Me part-->
-        <section id="about">
-            <h2 class="sub-header">About</h2>
-            <p id="about-me-content">I'm learning about web development and I'm trying to build a personal website.</p>
-        </section>
-        <!--This is for the contact me part-->
-        <section id="contact">
-            <h2 class="sub-header">Contact</h2>
-            <ul>
-                <li class="contact-info">Email: jdoa2003@protonmail.com</li>
-                <li class="contact-info">Phone: (505) 300-9739</li>
-            </ul>
-        </section>
+        <!--This one is for the page content-->
+        <div id="page-content">
+            <h1 id="title">Hello, I'm Juan Ortiz-Acosta</h1>
+            <div id="specific-content">
+
+            </div>
+        </div>
+        <script src="./script.js" async defer></script>
     </body>
 </html>
